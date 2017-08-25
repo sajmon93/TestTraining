@@ -1,0 +1,772 @@
+1503571088796	geckodriver	INFO	geckodriver 0.18.0
+1503571088804	geckodriver	INFO	Listening on 127.0.0.1:58031
+1503571090875	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1503571091330	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1544"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1544 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1579 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3099 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2178 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1503571091732	addons.xpi	WARN	Exception running bootstrap method startup on clicktoplay-rollout@mozilla.org: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.getStringPref]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js :: defineCohort :: line 49"  data: no] Stack trace: defineCohort()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js:49 < startup()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js:40 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4395 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2229 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1503571092079	Marionette	INFO	Enabled via --marionette
+1503571093950	Marionette	INFO	Listening on port 58047
+1503571094022	Marionette	WARN	TLS certificate errors will be ignored for this session
+1503571094065	Marionette	DEBUG	Register listener.js for window 4294967297
+1503571094272	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1503571095946	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1503571095947	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1503571096646	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://automationpractice.com/index.php"
+1503571098345	Marionette	DEBUG	Received DOM event "pageshow" for "http://automationpractice.com/index.php"
+1503571103509	Marionette	DEBUG	Received DOM event "beforeunload" for "http://automationpractice.com/index.php"
+1503571104323	Marionette	DEBUG	Received DOM event "pagehide" for "http://automationpractice.com/index.php"
+1503571104325	Marionette	DEBUG	Received DOM event "unload" for "http://automationpractice.com/index.php"
+1503571104741	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967301"
+1503571104741	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967303"
+1503571104742	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967307"
+1503571104742	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967309"
+1503571105293	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://automationpractice.com/index.php?id_category=3&controller=category"
+1503571105452	Marionette	DEBUG	Received DOM event "pageshow" for "http://automationpractice.com/index.php?id_category=3&controller=category"
+1503571105550	Marionette	DEBUG	Received DOM event "beforeunload" for "http://automationpractice.com/index.php?id_category=3&controller=category"
+1503571106225	Marionette	DEBUG	Received DOM event "pagehide" for "http://automationpractice.com/index.php?id_category=3&controller=category"
+1503571106226	Marionette	DEBUG	Received DOM event "unload" for "http://automationpractice.com/index.php?id_category=3&controller=category"
+1503571106933	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://automationpractice.com/index.php?id_product=5&controller=product"
+1503571106995	Marionette	DEBUG	Received DOM event "pageshow" for "http://automationpractice.com/index.php?id_product=5&controller=product"
+1503571107374	Marionette	DEBUG	Received DOM event "popstate" for "http://automationpractice.com/index.php?id_product=5&controller=product#/size-s/color-orange"
+1503571107581	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1503571109426	Marionette	DEBUG	Received DOM event "beforeunload" for "http://automationpractice.com/index.php?id_product=5&controller=product#/size-s/color-orange"
+1503571110677	Marionette	DEBUG	Received DOM event "pagehide" for "http://automationpractice.com/index.php?id_product=5&controller=product#/size-s/color-orange"
+1503571110680	Marionette	DEBUG	Received DOM event "unload" for "http://automationpractice.com/index.php?id_product=5&controller=product#/size-s/color-orange"
+1503571111242	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://automationpractice.com/index.php"
+1503571111637	Marionette	DEBUG	Received DOM event "pageshow" for "http://automationpractice.com/index.php"
+1503571116807	Marionette	DEBUG	Received DOM event "beforeunload" for "http://automationpractice.com/index.php"
+1503571117766	Marionette	DEBUG	Received DOM event "pagehide" for "http://automationpractice.com/index.php"
+1503571117770	Marionette	DEBUG	Received DOM event "unload" for "http://automationpractice.com/index.php"
+1503571118194	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967316"
+1503571118195	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967318"
+1503571118195	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967322"
+1503571118195	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967324"
+1503571118353	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://automationpractice.com/index.php"
+1503571118835	Marionette	DEBUG	Received DOM event "pageshow" for "http://automationpractice.com/index.php"
+1503571118977	Marionette	DEBUG	Received DOM event "beforeunload" for "http://automationpractice.com/index.php"
+1503571119852	Marionette	DEBUG	Received DOM event "pagehide" for "http://automationpractice.com/index.php"
+1503571119856	Marionette	DEBUG	Received DOM event "unload" for "http://automationpractice.com/index.php"
+1503571120400	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://automationpractice.com/index.php?controller=authentication&back=my-account"
+1503571120407	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967329"
+1503571120408	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967331"
+1503571120408	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967335"
+1503571120409	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967337"
+1503571120412	Marionette	DEBUG	Received DOM event "pageshow" for "http://automationpractice.com/index.php?controller=authentication&back=my-account"
+1503571120683	Marionette	DEBUG	Received DOM event "beforeunload" for "http://automationpractice.com/index.php?controller=authentication&back=my-account"
+1503571122029	Marionette	DEBUG	Received DOM event "pagehide" for "http://automationpractice.com/index.php?controller=authentication&back=my-account"
+1503571122032	Marionette	DEBUG	Received DOM event "unload" for "http://automationpractice.com/index.php?controller=authentication&back=my-account"
+1503571122525	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://automationpractice.com/index.php?controller=my-account"
+1503571122553	Marionette	DEBUG	Received DOM event "pageshow" for "http://automationpractice.com/index.php?controller=my-account"
+1503571127573	Marionette	DEBUG	Received DOM event "beforeunload" for "http://automationpractice.com/index.php?controller=my-account"
+1503571128671	Marionette	DEBUG	Received DOM event "pagehide" for "http://automationpractice.com/index.php?controller=my-account"
+1503571128671	Marionette	DEBUG	Received DOM event "unload" for "http://automationpractice.com/index.php?controller=my-account"
+1503571129287	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://automationpractice.com/index.php"
+1503571129532	Marionette	DEBUG	Received DOM event "pageshow" for "http://automationpractice.com/index.php"
+1503571134648	Marionette	DEBUG	Received DOM event "beforeunload" for "http://automationpractice.com/index.php"
+1503571135351	Marionette	DEBUG	Received DOM event "pagehide" for "http://automationpractice.com/index.php"
+1503571135352	Marionette	DEBUG	Received DOM event "unload" for "http://automationpractice.com/index.php"
+1503571135955	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://automationpractice.com/index.php?controller=best-sales"
+1503571135986	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967343"
+1503571135986	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967345"
+1503571135987	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967349"
+1503571135988	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967351"
+1503571136116	Marionette	DEBUG	Received DOM event "pageshow" for "http://automationpractice.com/index.php?controller=best-sales"
+1503571138189	Marionette	DEBUG	Received DOM event "beforeunload" for "http://automationpractice.com/index.php?controller=best-sales"
+1503571138990	Marionette	DEBUG	Received DOM event "pagehide" for "http://automationpractice.com/index.php?controller=best-sales"
+1503571138990	Marionette	DEBUG	Received DOM event "unload" for "http://automationpractice.com/index.php?controller=best-sales"
+1503571139620	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://automationpractice.com/index.php"
+1503571140155	Marionette	DEBUG	Received DOM event "pageshow" for "http://automationpractice.com/index.php"
+1503571142302	Marionette	DEBUG	Received DOM event "beforeunload" for "http://automationpractice.com/index.php"
+1503571143786	Marionette	DEBUG	Received DOM event "pagehide" for "http://automationpractice.com/index.php"
+1503571143789	Marionette	DEBUG	Received DOM event "unload" for "http://automationpractice.com/index.php"
+1503571144198	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967357"
+1503571144199	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967359"
+1503571144199	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967363"
+1503571144199	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967365"
+1503571144686	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://automationpractice.com/index.php?id_category=3&controller=category"
+1503571144815	Marionette	DEBUG	Received DOM event "pageshow" for "http://automationpractice.com/index.php?id_category=3&controller=category"
+1503571145022	Marionette	DEBUG	Received DOM event "beforeunload" for "http://automationpractice.com/index.php?id_category=3&controller=category"
+1503571145640	Marionette	DEBUG	Received DOM event "pagehide" for "http://automationpractice.com/index.php?id_category=3&controller=category"
+1503571145644	Marionette	DEBUG	Received DOM event "unload" for "http://automationpractice.com/index.php?id_category=3&controller=category"
+1503571146380	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://automationpractice.com/index.php?id_product=6&controller=product"
+1503571146557	Marionette	DEBUG	Received DOM event "pageshow" for "http://automationpractice.com/index.php?id_product=6&controller=product"
+1503571146876	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1503571146964	Marionette	DEBUG	Received DOM event "beforeunload" for "http://automationpractice.com/index.php?id_product=6&controller=product"
+1503571147613	Marionette	DEBUG	Received DOM event "pagehide" for "http://automationpractice.com/index.php?id_product=6&controller=product"
+1503571147614	Marionette	DEBUG	Received DOM event "unload" for "http://automationpractice.com/index.php?id_product=6&controller=product"
+1503571148150	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://automationpractice.com/index.php?controller=order"
+1503571148166	Marionette	DEBUG	Received DOM event "pageshow" for "http://automationpractice.com/index.php?controller=order"
+1503571149262	Marionette	DEBUG	Received DOM event "beforeunload" for "http://automationpractice.com/index.php?controller=order"
+1503571149774	Marionette	DEBUG	Received DOM event "pagehide" for "http://automationpractice.com/index.php?controller=order"
+1503571149777	Marionette	DEBUG	Received DOM event "unload" for "http://automationpractice.com/index.php?controller=order"
+1503571150289	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://automationpractice.com/index.php?controller=order&step=1"
+1503571150413	Marionette	DEBUG	Received DOM event "pageshow" for "http://automationpractice.com/index.php?controller=order&step=1"
+1503571150871	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1503571150876	Marionette	DEBUG	Received DOM event "beforeunload" for "http://automationpractice.com/index.php?controller=order&step=1"
+1503571151908	Marionette	DEBUG	Received DOM event "pagehide" for "http://automationpractice.com/index.php?controller=order&step=1"
+1503571151908	Marionette	DEBUG	Received DOM event "unload" for "http://automationpractice.com/index.php?controller=order&step=1"
+1503571152537	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://automationpractice.com/index.php"
+1503571152807	Marionette	DEBUG	Received DOM event "pageshow" for "http://automationpractice.com/index.php"
+1503571152909	Marionette	DEBUG	Received DOM event "beforeunload" for "http://automationpractice.com/index.php"
+1503571153458	Marionette	DEBUG	Received DOM event "pagehide" for "http://automationpractice.com/index.php"
+1503571153459	Marionette	DEBUG	Received DOM event "unload" for "http://automationpractice.com/index.php"
+1503571154038	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://automationpractice.com/index.php?controller=contact"
+1503571154081	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967374"
+1503571154082	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967376"
+1503571154082	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967380"
+1503571154082	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967382"
+1503571154191	Marionette	DEBUG	Received DOM event "pageshow" for "http://automationpractice.com/index.php?controller=contact"
+1503571159598	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1503571159898	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1503571160153	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1503571160434	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1503571165694	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1503571165986	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1503571166190	Marionette	DEBUG	Received DOM event "beforeunload" for "http://automationpractice.com/index.php?controller=contact"
+1503571167509	Marionette	DEBUG	Received DOM event "pagehide" for "http://automationpractice.com/index.php?controller=contact"
+1503571167511	Marionette	DEBUG	Received DOM event "unload" for "http://automationpractice.com/index.php?controller=contact"
+1503571167996	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://automationpractice.com/index.php?controller=contact"
+1503571168057	Marionette	DEBUG	Received DOM event "pageshow" for "http://automationpractice.com/index.php?controller=contact"
+1503571173072	Marionette	DEBUG	Received DOM event "beforeunload" for "http://automationpractice.com/index.php?controller=contact"
+1503571174410	Marionette	DEBUG	Received DOM event "pagehide" for "http://automationpractice.com/index.php?controller=contact"
+1503571174410	Marionette	DEBUG	Received DOM event "unload" for "http://automationpractice.com/index.php?controller=contact"
+1503571175079	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://automationpractice.com/index.php"
+1503571175543	Marionette	DEBUG	Received DOM event "pageshow" for "http://automationpractice.com/index.php"
+1503571180671	Marionette	DEBUG	Received DOM event "beforeunload" for "http://automationpractice.com/index.php"
+1503571181816	Marionette	DEBUG	Received DOM event "pagehide" for "http://automationpractice.com/index.php"
+1503571181817	Marionette	DEBUG	Received DOM event "unload" for "http://automationpractice.com/index.php"
+1503571182232	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967387"
+1503571182232	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967389"
+1503571182233	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967393"
+1503571182233	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967395"
+1503571182792	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://automationpractice.com/index.php?id_category=3&controller=category"
+1503571182993	Marionette	DEBUG	Received DOM event "pageshow" for "http://automationpractice.com/index.php?id_category=3&controller=category"
+1503571183120	Marionette	DEBUG	Received DOM event "beforeunload" for "http://automationpractice.com/index.php?id_category=3&controller=category"
+1503571183784	Marionette	DEBUG	Received DOM event "pagehide" for "http://automationpractice.com/index.php?id_category=3&controller=category"
+1503571183785	Marionette	DEBUG	Received DOM event "unload" for "http://automationpractice.com/index.php?id_category=3&controller=category"
+1503571184553	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://automationpractice.com/index.php?id_product=6&controller=product"
+1503571184660	Marionette	DEBUG	Received DOM event "pageshow" for "http://automationpractice.com/index.php?id_product=6&controller=product"
+1503571184946	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1503571187984	Marionette	DEBUG	Received DOM event "beforeunload" for "http://automationpractice.com/index.php?id_product=6&controller=product"
+1503571188919	Marionette	DEBUG	Received DOM event "pagehide" for "http://automationpractice.com/index.php?id_product=6&controller=product"
+1503571188919	Marionette	DEBUG	Received DOM event "unload" for "http://automationpractice.com/index.php?id_product=6&controller=product"
+1503571189555	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://automationpractice.com/index.php"
+1503571189859	Marionette	DEBUG	Received DOM event "pageshow" for "http://automationpractice.com/index.php"
+1503571194998	Marionette	DEBUG	Received DOM event "beforeunload" for "http://automationpractice.com/index.php"
+1503571195801	Marionette	DEBUG	Received DOM event "pagehide" for "http://automationpractice.com/index.php"
+1503571195801	Marionette	DEBUG	Received DOM event "unload" for "http://automationpractice.com/index.php"
+1503571196221	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967402"
+1503571196221	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967404"
+1503571196221	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967408"
+1503571196222	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967410"
+1503571196743	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://automationpractice.com/index.php?id_category=3&controller=category"
+1503571196973	Marionette	DEBUG	Received DOM event "pageshow" for "http://automationpractice.com/index.php?id_category=3&controller=category"
+1503571197106	Marionette	DEBUG	Received DOM event "beforeunload" for "http://automationpractice.com/index.php?id_category=3&controller=category"
+1503571197717	Marionette	DEBUG	Received DOM event "pagehide" for "http://automationpractice.com/index.php?id_category=3&controller=category"
+1503571197717	Marionette	DEBUG	Received DOM event "unload" for "http://automationpractice.com/index.php?id_category=3&controller=category"
+1503571198424	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://automationpractice.com/index.php?id_product=6&controller=product"
+1503571198507	Marionette	DEBUG	Received DOM event "pageshow" for "http://automationpractice.com/index.php?id_product=6&controller=product"
+1503571198802	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1503571199884	Marionette	DEBUG	Received DOM event "beforeunload" for "http://automationpractice.com/index.php?id_product=6&controller=product"
+1503571201000	Marionette	DEBUG	Received DOM event "pagehide" for "http://automationpractice.com/index.php?id_product=6&controller=product"
+1503571201001	Marionette	DEBUG	Received DOM event "unload" for "http://automationpractice.com/index.php?id_product=6&controller=product"
+1503571201744	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://automationpractice.com/index.php?controller=order"
+1503571201769	Marionette	DEBUG	Received DOM event "pageshow" for "http://automationpractice.com/index.php?controller=order"
+1503571202093	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1503571202112	Marionette	DEBUG	Received DOM event "beforeunload" for "http://automationpractice.com/index.php?controller=order"
+1503571203210	Marionette	DEBUG	Received DOM event "pagehide" for "http://automationpractice.com/index.php?controller=order"
+1503571203210	Marionette	DEBUG	Received DOM event "unload" for "http://automationpractice.com/index.php?controller=order"
+1503571204085	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://automationpractice.com/index.php"
+1503571204574	Marionette	DEBUG	Received DOM event "pageshow" for "http://automationpractice.com/index.php"
+1503571209689	Marionette	DEBUG	Received DOM event "beforeunload" for "http://automationpractice.com/index.php"
+1503571210657	Marionette	DEBUG	Received DOM event "pagehide" for "http://automationpractice.com/index.php"
+1503571210657	Marionette	DEBUG	Received DOM event "unload" for "http://automationpractice.com/index.php"
+1503571211078	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967418"
+1503571211078	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967420"
+1503571211079	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967424"
+1503571211079	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967426"
+1503571211851	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://automationpractice.com/index.php?id_category=3&controller=category"
+1503571211937	Marionette	DEBUG	Received DOM event "pageshow" for "http://automationpractice.com/index.php?id_category=3&controller=category"
+1503571212010	Marionette	DEBUG	Received DOM event "beforeunload" for "http://automationpractice.com/index.php?id_category=3&controller=category"
+1503571212593	Marionette	DEBUG	Received DOM event "pagehide" for "http://automationpractice.com/index.php?id_category=3&controller=category"
+1503571212594	Marionette	DEBUG	Received DOM event "unload" for "http://automationpractice.com/index.php?id_category=3&controller=category"
+1503571213771	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://automationpractice.com/index.php?id_cms=1&controller=cms"
+1503571213786	Marionette	DEBUG	Received DOM event "pageshow" for "http://automationpractice.com/index.php?id_cms=1&controller=cms"
+1503571213796	Marionette	DEBUG	Received DOM event "beforeunload" for "http://automationpractice.com/index.php?id_cms=1&controller=cms"
+1503571214703	Marionette	DEBUG	Received DOM event "pagehide" for "http://automationpractice.com/index.php?id_cms=1&controller=cms"
+1503571214703	Marionette	DEBUG	Received DOM event "unload" for "http://automationpractice.com/index.php?id_cms=1&controller=cms"
+1503571216179	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://automationpractice.com/index.php"
+1503571216496	Marionette	DEBUG	Received DOM event "pageshow" for "http://automationpractice.com/index.php"
+1503571219623	Marionette	DEBUG	Received DOM event "beforeunload" for "http://automationpractice.com/index.php"
+1503571220265	Marionette	DEBUG	Received DOM event "pagehide" for "http://automationpractice.com/index.php"
+1503571220266	Marionette	DEBUG	Received DOM event "unload" for "http://automationpractice.com/index.php"
+1503571220722	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967433"
+1503571220722	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967435"
+1503571220722	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967439"
+1503571220722	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967441"
+1503571220946	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://automationpractice.com/index.php?controller=prices-drop"
+1503571221076	Marionette	DEBUG	Received DOM event "pageshow" for "http://automationpractice.com/index.php?controller=prices-drop"
+1503571221189	Marionette	DEBUG	Received DOM event "beforeunload" for "http://automationpractice.com/index.php?controller=prices-drop"
+1503571222099	Marionette	DEBUG	Received DOM event "pagehide" for "http://automationpractice.com/index.php?controller=prices-drop"
+1503571222100	Marionette	DEBUG	Received DOM event "unload" for "http://automationpractice.com/index.php?controller=prices-drop"
+1503571223002	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://automationpractice.com/index.php"
+1503571223421	Marionette	DEBUG	Received DOM event "pageshow" for "http://automationpractice.com/index.php"
+1503571226536	Marionette	DEBUG	Received DOM event "beforeunload" for "http://automationpractice.com/index.php"
+1503571227102	Marionette	DEBUG	Received DOM event "pagehide" for "http://automationpractice.com/index.php"
+1503571227102	Marionette	DEBUG	Received DOM event "unload" for "http://automationpractice.com/index.php"
+1503571227644	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://automationpractice.com/index.php?controller=stores"
+1503571227702	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967447"
+1503571227702	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967449"
+1503571227702	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967453"
+1503571227702	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967455"
+1503571228722	Marionette	DEBUG	Received DOM event "pageshow" for "http://automationpractice.com/index.php?controller=stores"
+1503571229262	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1503571229565	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1503571229638	Marionette	DEBUG	Received DOM event "beforeunload" for "http://automationpractice.com/index.php?controller=stores"
+1503571230604	Marionette	DEBUG	Received DOM event "pagehide" for "http://automationpractice.com/index.php?controller=stores"
+1503571230604	Marionette	DEBUG	Received DOM event "unload" for "http://automationpractice.com/index.php?controller=stores"
+1503571231508	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://automationpractice.com/index.php"
+1503571231840	Marionette	DEBUG	Received DOM event "pageshow" for "http://automationpractice.com/index.php"
+1503571236971	Marionette	DEBUG	Received DOM event "beforeunload" for "http://automationpractice.com/index.php"
+1503571237541	Marionette	DEBUG	Received DOM event "pagehide" for "http://automationpractice.com/index.php"
+1503571237541	Marionette	DEBUG	Received DOM event "unload" for "http://automationpractice.com/index.php"
+1503571238155	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://automationpractice.com/index.php?controller=history"
+1503571238195	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967461"
+1503571238195	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967463"
+1503571238196	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967467"
+1503571238196	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967469"
+1503571238215	Marionette	DEBUG	Received DOM event "pageshow" for "http://automationpractice.com/index.php?controller=history"
+1503571241284	Marionette	DEBUG	Received DOM event "beforeunload" for "http://automationpractice.com/index.php?controller=history"
+1503571242392	Marionette	DEBUG	Received DOM event "pagehide" for "http://automationpractice.com/index.php?controller=history"
+1503571242392	Marionette	DEBUG	Received DOM event "unload" for "http://automationpractice.com/index.php?controller=history"
+1503571243132	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://automationpractice.com/index.php"
+1503571243608	Marionette	DEBUG	Received DOM event "pageshow" for "http://automationpractice.com/index.php"
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+ "http://automationpractice.com/index.php?controller=history"
+1503570651310	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://automationpractice.com/index.php"
+1503570651631	Marionette	DEBUG	Received DOM event "pageshow" for "http://automationpractice.com/index.php"
+1503570654769	Marionette	DEBUG	Received DOM event "beforeunload" for "http://automationpractice.com/index.php"
+1503570655377	Marionette	DEBUG	Received DOM event "pagehide" for "http://automationpractice.com/index.php"
+1503570655377	Marionette	DEBUG	Received DOM event "unload" for "http://automationpractice.com/index.php"
+1503570655931	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://automationpractice.com/index.php?controller=new-products"
+1503570655940	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967475"
+1503570655941	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967477"
+1503570655954	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967481"
+1503570655955	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967483"
+1503570656037	Marionette	DEBUG	Received DOM event "pageshow" for "http://automationpractice.com/index.php?controller=new-products"
+1503570656104	Marionette	DEBUG	Received DOM event "beforeunload" for "http://automationpractice.com/index.php?controller=new-products"
+1503570656929	Marionette	DEBUG	Received DOM event "pagehide" for "http://automationpractice.com/index.php?controller=new-products"
+1503570656929	Marionette	DEBUG	Received DOM event "unload" for "http://automationpractice.com/index.php?controller=new-products"
+1503570657586	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://automationpractice.com/index.php"
+1503570657991	Marionette	DEBUG	Received DOM event "pageshow" for "http://automationpractice.com/index.php"
+1503570660105	Marionette	DEBUG	Received DOM event "beforeunload" for "http://automationpractice.com/index.php"
+1503570661167	Marionette	DEBUG	Received DOM event "pagehide" for "http://automationpractice.com/index.php"
+1503570661167	Marionette	DEBUG	Received DOM event "unload" for "http://automationpractice.com/index.php"
+1503570661830	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://automationpractice.com/index.php"
+1503570661848	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967489"
+1503570661848	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967491"
+1503570661848	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967495"
+1503570661849	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967497"
+1503570662248	Marionette	DEBUG	Received DOM event "pageshow" for "http://automationpractice.com/index.php"
+1503570664374	Marionette	DEBUG	Received DOM event "beforeunload" for "http://automationpractice.com/index.php"
+1503570665220	Marionette	DEBUG	Received DOM event "pagehide" for "http://automationpractice.com/index.php"
+1503570665220	Marionette	DEBUG	Received DOM event "unload" for "http://automationpractice.com/index.php"
+1503570665638	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967502"
+1503570665638	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967504"
+1503570665639	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967508"
+1503570665639	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967510"
+1503570666230	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://automationpractice.com/index.php?id_category=3&controller=category"
+1503570666451	Marionette	DEBUG	Received DOM event "pageshow" for "http://automationpractice.com/index.php?id_category=3&controller=category"
+1503570666549	Marionette	DEBUG	Received DOM event "beforeunload" for "http://automationpractice.com/index.php?id_category=3&controller=category"
+1503570667111	Marionette	DEBUG	Received DOM event "pagehide" for "http://automationpractice.com/index.php?id_category=3&controller=category"
+1503570667111	Marionette	DEBUG	Received DOM event "unload" for "http://automationpractice.com/index.php?id_category=3&controller=category"
+1503570667845	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://automationpractice.com/index.php?id_product=6&controller=product"
+1503570668026	Marionette	DEBUG	Received DOM event "pageshow" for "http://automationpractice.com/index.php?id_product=6&controller=product"
+1503570668339	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1503570668410	Marionette	DEBUG	Received DOM event "beforeunload" for "http://automationpractice.com/index.php?id_product=6&controller=product"
+1503570669151	Marionette	DEBUG	Received DOM event "pagehide" for "http://automationpractice.com/index.php?id_product=6&controller=product"
+1503570669151	Marionette	DEBUG	Received DOM event "unload" for "http://automationpractice.com/index.php?id_product=6&controller=product"
+1503570669867	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://automationpractice.com/index.php?controller=order"
+1503570669944	Marionette	DEBUG	Received DOM event "pageshow" for "http://automationpractice.com/index.php?controller=order"
+1503570671026	Marionette	DEBUG	Received DOM event "beforeunload" for "http://automationpractice.com/index.php?controller=order"
+1503570672008	Marionette	DEBUG	Received DOM event "pagehide" for "http://automationpractice.com/index.php?controller=order"
+1503570672009	Marionette	DEBUG	Received DOM event "unload" for "http://automationpractice.com/index.php?controller=order"
+1503570672556	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://automationpractice.com/index.php?controller=order&step=1"
+1503570672734	Marionette	DEBUG	Received DOM event "pageshow" for "http://automationpractice.com/index.php?controller=order&step=1"
+1503570673806	Marionette	DEBUG	Received DOM event "beforeunload" for "http://automationpractice.com/index.php?controller=order&step=1"
+1503570674448	Marionette	DEBUG	Received DOM event "pagehide" for "http://automationpractice.com/index.php?controller=order&step=1"
+1503570674448	Marionette	DEBUG	Received DOM event "unload" for "http://automationpractice.com/index.php?controller=order&step=1"
+1503570674977	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://automationpractice.com/index.php?controller=order"
+1503570675032	Marionette	DEBUG	Received DOM event "pageshow" for "http://automationpractice.com/index.php?controller=order"
+1503570676345	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1503570676389	Marionette	DEBUG	Received DOM event "beforeunload" for "http://automationpractice.com/index.php?controller=order"
+1503570677015	Marionette	DEBUG	Received DOM event "pagehide" for "http://automationpractice.com/index.php?controller=order"
+1503570677015	Marionette	DEBUG	Received DOM event "unload" for "http://automationpractice.com/index.php?controller=order"
+1503570677565	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://automationpractice.com/index.php?controller=order&multi-shipping="
+1503570677629	Marionette	DEBUG	Received DOM event "pageshow" for "http://automationpractice.com/index.php?controller=order&multi-shipping="
+1503570678712	Marionette	DEBUG	Received DOM event "beforeunload" for "http://automationpractice.com/index.php?controller=order&multi-shipping="
+1503570679162	Marionette	DEBUG	Received DOM event "pagehide" for "http://automationpractice.com/index.php?controller=order&multi-shipping="
+1503570679162	Marionette	DEBUG	Received DOM event "unload" for "http://automationpractice.com/index.php?controller=order&multi-shipping="
+1503570679658	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://automationpractice.com/index.php?fc=module&module=bankwire&controller=payment"
+1503570679669	Marionette	DEBUG	Received DOM event "pageshow" for "http://automationpractice.com/index.php?fc=module&module=bankwire&controller=payment"
+1503570680731	Marionette	DEBUG	Received DOM event "beforeunload" for "http://automationpractice.com/index.php?fc=module&module=bankwire&controller=payment"
+1503570681208	Marionette	DEBUG	Received DOM event "pagehide" for "http://automationpractice.com/index.php?fc=module&module=bankwire&controller=payment"
+1503570681208	Marionette	DEBUG	Received DOM event "unload" for "http://automationpractice.com/index.php?fc=module&module=bankwire&controller=payment"
+1503570681794	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://automationpractice.com/index.php?controller=search&orderby=position&orderway=desc&search_query=&submit_search="
+1503570681917	Marionette	DEBUG	Received DOM event "pageshow" for "http://automationpractice.com/index.php?controller=search&orderby=position&orderway=desc&search_query=&submit_search="
+1503570681929	Marionette	DEBUG	Received DOM event "beforeunload" for "http://automationpractice.com/index.php?controller=search&orderby=position&orderway=desc&search_query=&submit_search="
+1503570682999	Marionette	DEBUG	Received DOM event "pagehide" for "http://automationpractice.com/index.php?controller=search&orderby=position&orderway=desc&search_query=&submit_search="
+1503570682999	Marionette	DEBUG	Received DOM event "unload" for "http://automationpractice.com/index.php?controller=search&orderby=position&orderway=desc&search_query=&submit_search="
+1503570683698	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://automationpractice.com/index.php"
+1503570684055	Marionette	DEBUG	Received DOM event "pageshow" for "http://automationpractice.com/index.php"
+1503570686200	Marionette	DEBUG	Received DOM event "beforeunload" for "http://automationpractice.com/index.php"
+1503570687032	Marionette	DEBUG	Received DOM event "pagehide" for "http://automationpractice.com/index.php"
+1503570687033	Marionette	DEBUG	Received DOM event "unload" for "http://automationpractice.com/index.php"
+1503570687448	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967523"
+1503570687449	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967525"
+1503570687449	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967529"
+1503570687450	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967531"
+1503570687981	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://automationpractice.com/index.php?id_category=3&controller=category"
+1503570688123	Marionette	DEBUG	Received DOM event "pageshow" for "http://automationpractice.com/index.php?id_category=3&controller=category"
+1503570688247	Marionette	DEBUG	Received DOM event "beforeunload" for "http://automationpractice.com/index.php?id_category=3&controller=category"
+1503570688855	Marionette	DEBUG	Received DOM event "pagehide" for "http://automationpractice.com/index.php?id_category=3&controller=category"
+1503570688855	Marionette	DEBUG	Received DOM event "unload" for "http://automationpractice.com/index.php?id_category=3&controller=category"
+1503570689690	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://automationpractice.com/index.php?id_product=6&controller=product"
+1503570689780	Marionette	DEBUG	Received DOM event "pageshow" for "http://automationpractice.com/index.php?id_product=6&controller=product"
+1503570690091	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1503570690193	Marionette	DEBUG	Received DOM event "beforeunload" for "http://automationpractice.com/index.php?id_product=6&controller=product"
+1503570690807	Marionette	DEBUG	Received DOM event "pagehide" for "http://automationpractice.com/index.php?id_product=6&controller=product"
+1503570690807	Marionette	DEBUG	Received DOM event "unload" for "http://automationpractice.com/index.php?id_product=6&controller=product"
+1503570691450	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://automationpractice.com/index.php?controller=order"
+1503570691509	Marionette	DEBUG	Received DOM event "pageshow" for "http://automationpractice.com/index.php?controller=order"
+1503570692589	Marionette	DEBUG	Received DOM event "beforeunload" for "http://automationpractice.com/index.php?controller=order"
+1503570693066	Marionette	DEBUG	Received DOM event "pagehide" for "http://automationpractice.com/index.php?controller=order"
+1503570693066	Marionette	DEBUG	Received DOM event "unload" for "http://automationpractice.com/index.php?controller=order"
+1503570693630	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://automationpractice.com/index.php?controller=order&step=1"
+1503570693712	Marionette	DEBUG	Received DOM event "pageshow" for "http://automationpractice.com/index.php?controller=order&step=1"
+1503570694786	Marionette	DEBUG	Received DOM event "beforeunload" for "http://automationpractice.com/index.php?controller=order&step=1"
+1503570695821	Marionette	DEBUG	Received DOM event "pagehide" for "http://automationpractice.com/index.php?controller=order&step=1"
+1503570695821	Marionette	DEBUG	Received DOM event "unload" for "http://automationpractice.com/index.php?controller=order&step=1"
+1503570696377	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://automationpractice.com/index.php?controller=order"
+1503570696416	Marionette	DEBUG	Received DOM event "pageshow" for "http://automationpractice.com/index.php?controller=order"
+1503570697728	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1503570697786	Marionette	DEBUG	Received DOM event "beforeunload" for "http://automationpractice.com/index.php?controller=order"
+1503570698425	Marionette	DEBUG	Received DOM event "pagehide" for "http://automationpractice.com/index.php?controller=order"
+1503570698425	Marionette	DEBUG	Received DOM event "unload" for "http://automationpractice.com/index.php?controller=order"
+1503570698966	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://automationpractice.com/index.php?controller=order&multi-shipping="
+1503570699025	Marionette	DEBUG	Received DOM event "pageshow" for "http://automationpractice.com/index.php?controller=order&multi-shipping="
+1503570700134	Marionette	DEBUG	Received DOM event "beforeunload" for "http://automationpractice.com/index.php?controller=order&multi-shipping="
+1503570700632	Marionette	DEBUG	Received DOM event "pagehide" for "http://automationpractice.com/index.php?controller=order&multi-shipping="
+1503570700633	Marionette	DEBUG	Received DOM event "unload" for "http://automationpractice.com/index.php?controller=order&multi-shipping="
+1503570701178	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://automationpractice.com/index.php?fc=module&module=cheque&controller=payment"
+1503570701261	Marionette	DEBUG	Received DOM event "pageshow" for "http://automationpractice.com/index.php?fc=module&module=cheque&controller=payment"
+1503570702337	Marionette	DEBUG	Received DOM event "beforeunload" for "http://automationpractice.com/index.php?fc=module&module=cheque&controller=payment"
+1503570703292	Marionette	DEBUG	Received DOM event "pagehide" for "http://automationpractice.com/index.php?fc=module&module=cheque&controller=payment"
+1503570703293	Marionette	DEBUG	Received DOM event "unload" for "http://automationpractice.com/index.php?fc=module&module=cheque&controller=payment"
+1503570703909	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://automationpractice.com/index.php?controller=search&orderby=position&orderway=desc&search_query=&submit_search="
+1503570704067	Marionette	DEBUG	Received DOM event "pageshow" for "http://automationpractice.com/index.php?controller=search&orderby=position&orderway=desc&search_query=&submit_search="
+1503570704101	Marionette	DEBUG	Received DOM event "beforeunload" for "http://automationpractice.com/index.php?controller=search&orderby=position&orderway=desc&search_query=&submit_search="
+1503570705007	Marionette	DEBUG	Received DOM event "pagehide" for "http://automationpractice.com/index.php?controller=search&orderby=position&orderway=desc&search_query=&submit_search="
+1503570705007	Marionette	DEBUG	Received DOM event "unload" for "http://automationpractice.com/index.php?controller=search&orderby=position&orderway=desc&search_query=&submit_search="
+1503570705670	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://automationpractice.com/index.php"
+1503570706043	Marionette	DEBUG	Received DOM event "pageshow" for "http://automationpractice.com/index.php"
+1503570708154	Marionette	DEBUG	Received DOM event "beforeunload" for "http://automationpractice.com/index.php"
+1503570709060	Marionette	DEBUG	Received DOM event "pagehide" for "http://automationpractice.com/index.php"
+1503570709060	Marionette	DEBUG	Received DOM event "unload" for "http://automationpractice.com/index.php"
+1503570709469	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967544"
+1503570709469	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967546"
+1503570709470	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967550"
+1503570709470	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967552"
+1503570710114	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://automationpractice.com/index.php?id_category=3&controller=category"
+1503570710236	Marionette	DEBUG	Received DOM event "pageshow" for "http://automationpractice.com/index.php?id_category=3&controller=category"
+1503570719895	Marionette	DEBUG	Received DOM event "beforeunload" for "http://automationpractice.com/index.php?id_category=3&controller=category#/price-34.13-53"
+1503570720937	Marionette	DEBUG	Received DOM event "pagehide" for "http://automationpractice.com/index.php?id_category=3&controller=category#/price-34.13-53"
+1503570720937	Marionette	DEBUG	Received DOM event "unload" for "http://automationpractice.com/index.php?id_category=3&controller=category#/price-34.13-53"
+1503570721681	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://automationpractice.com/index.php"
+1503570722108	Marionette	DEBUG	Received DOM event "pageshow" for "http://automationpractice.com/index.php"
+1503570725240	Marionette	DEBUG	Received DOM event "beforeunload" for "http://automationpractice.com/index.php"
+1503570726286	Marionette	DEBUG	Received DOM event "pagehide" for "http://automationpractice.com/index.php"
+1503570726287	Marionette	DEBUG	Received DOM event "unload" for "http://automationpractice.com/index.php"
+1503570726739	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967558"
+1503570726740	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967560"
+1503570726749	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967564"
+1503570726750	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967566"
+1503570726957	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://automationpractice.com/index.php"
+1503570727286	Marionette	DEBUG	Received DOM event "pageshow" for "http://automationpractice.com/index.php"
+1503570729379	Marionette	DEBUG	Received DOM event "beforeunload" for "http://automationpractice.com/index.php"
+1503570730100	Marionette	DEBUG	Received DOM event "pagehide" for "http://automationpractice.com/index.php"
+1503570730100	Marionette	DEBUG	Received DOM event "unload" for "http://automationpractice.com/index.php"
+1503570730514	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967571"
+1503570730515	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967573"
+1503570730515	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967577"
+1503570730515	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967579"
+1503570731057	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://automationpractice.com/index.php?id_category=3&controller=category"
+1503570731144	Marionette	DEBUG	Received DOM event "pageshow" for "http://automationpractice.com/index.php?id_category=3&controller=category"
+1503570733595	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1503570738775	Marionette	DEBUG	Received DOM event "beforeunload" for "http://automationpractice.com/index.php?id_category=3&controller=category#/"
+1503570739923	Marionette	DEBUG	Received DOM event "pagehide" for "http://automationpractice.com/index.php?id_category=3&controller=category#/"
+1503570739923	Marionette	DEBUG	Received DOM event "unload" for "http://automationpractice.com/index.php?id_category=3&controller=category#/"
+1503570740574	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://automationpractice.com/index.php"
+1503570740990	Marionette	DEBUG	Received DOM event "pageshow" for "http://automationpractice.com/index.php"
+1503570743129	Marionette	DEBUG	Received DOM event "beforeunload" for "http://automationpractice.com/index.php"
+1503570743777	Marionette	DEBUG	Received DOM event "pagehide" for "http://automationpractice.com/index.php"
+1503570743778	Marionette	DEBUG	Received DOM event "unload" for "http://automationpractice.com/index.php"
+1503570744202	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967585"
+1503570744202	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967587"
+1503570744203	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967591"
+1503570744203	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967593"
+1503570744808	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://automationpractice.com/index.php?id_category=3&controller=category"
+1503570744978	Marionette	DEBUG	Received DOM event "pageshow" for "http://automationpractice.com/index.php?id_category=3&controller=category"
+1503570747375	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1503570750580	Marionette	DEBUG	Received DOM event "beforeunload" for "http://automationpractice.com/index.php?id_category=3&controller=category#/"
+1503570751550	Marionette	DEBUG	Received DOM event "pagehide" for "http://automationpractice.com/index.php?id_category=3&controller=category#/"
+1503570751551	Marionette	DEBUG	Received DOM event "unload" for "http://automationpractice.com/index.php?id_category=3&controller=category#/"
+1503570752170	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://automationpractice.com/index.php"
+1503570752650	Marionette	DEBUG	Received DOM event "pageshow" for "http://automationpractice.com/index.php"
+1503570754786	Marionette	DEBUG	Received DOM event "beforeunload" for "http://automationpractice.com/index.php"
+1503570755559	Marionette	DEBUG	Received DOM event "pagehide" for "http://automationpractice.com/index.php"
+1503570755559	Marionette	DEBUG	Received DOM event "unload" for "http://automationpractice.com/index.php"
+1503570755988	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967599"
+1503570755989	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967601"
+1503570755989	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967605"
+1503570755989	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967607"
+1503570756778	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://automationpractice.com/index.php?id_category=3&controller=category"
+1503570757028	Marionette	DEBUG	Received DOM event "pageshow" for "http://automationpractice.com/index.php?id_category=3&controller=category"
+1503570759396	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1503570762613	Marionette	DEBUG	Received DOM event "beforeunload" for "http://automationpractice.com/index.php?id_category=3&controller=category#/"
+1503570763615	Marionette	DEBUG	Received DOM event "pagehide" for "http://automationpractice.com/index.php?id_category=3&controller=category#/"
+1503570763615	Marionette	DEBUG	Received DOM event "unload" for "http://automationpractice.com/index.php?id_category=3&controller=category#/"
+1503570764229	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://automationpractice.com/index.php"
+1503570764588	Marionette	DEBUG	Received DOM event "pageshow" for "http://automationpractice.com/index.php"
+1503570766736	Marionette	DEBUG	Received DOM event "beforeunload" for "http://automationpractice.com/index.php"
+1503570767655	Marionette	DEBUG	Received DOM event "pagehide" for "http://automationpractice.com/index.php"
+1503570767655	Marionette	DEBUG	Received DOM event "unload" for "http://automationpractice.com/index.php"
+1503570768094	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967613"
+1503570768094	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967615"
+1503570768096	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967619"
+1503570768097	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967621"
+1503570768761	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://automationpractice.com/index.php?id_category=3&controller=category"
+1503570768847	Marionette	DEBUG	Received DOM event "pageshow" for "http://automationpractice.com/index.php?id_category=3&controller=category"
+1503570771241	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1503570776452	Marionette	DEBUG	Received DOM event "beforeunload" for "http://automationpractice.com/index.php?id_category=3&controller=category#/"
+1503570777510	Marionette	DEBUG	Received DOM event "pagehide" for "http://automationpractice.com/index.php?id_category=3&controller=category#/"
+1503570777510	Marionette	DEBUG	Received DOM event "unload" for "http://automationpractice.com/index.php?id_category=3&controller=category#/"
+1503570778214	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://automationpractice.com/index.php"
+1503570778515	Marionette	DEBUG	Received DOM event "pageshow" for "http://automationpractice.com/index.php"
+1503570780636	Marionette	DEBUG	Received DOM event "beforeunload" for "http://automationpractice.com/index.php"
+1503570781381	Marionette	DEBUG	Received DOM event "pagehide" for "http://automationpractice.com/index.php"
+1503570781381	Marionette	DEBUG	Received DOM event "unload" for "http://automationpractice.com/index.php"
+1503570781796	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967627"
+1503570781797	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967629"
+1503570781797	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967633"
+1503570781797	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967635"
+1503570782324	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://automationpractice.com/index.php?id_category=3&controller=category"
+1503570782556	Marionette	DEBUG	Received DOM event "pageshow" for "http://automationpractice.com/index.php?id_category=3&controller=category"
+1503570783641	Marionette	DEBUG	Received DOM event "beforeunload" for "http://automationpractice.com/index.php?id_category=3&controller=category"
+1503570785088	Marionette	DEBUG	Received DOM event "pagehide" for "http://automationpractice.com/index.php?id_category=3&controller=category"
+1503570785089	Marionette	DEBUG	Received DOM event "unload" for "http://automationpractice.com/index.php?id_category=3&controller=category"
+1503570786086	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://automationpractice.com/index.php?id_category=8&controller=category"
+1503570786387	Marionette	DEBUG	Received DOM event "pageshow" for "http://automationpractice.com/index.php?id_category=8&controller=category"
+1503570789725	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1503570792872	Marionette	DEBUG	Received DOM event "beforeunload" for "http://automationpractice.com/index.php?id_category=8&controller=category#/"
+1503570793719	Marionette	DEBUG	Received DOM event "pagehide" for "http://automationpractice.com/index.php?id_category=8&controller=category#/"
+1503570793720	Marionette	DEBUG	Received DOM event "unload" for "http://automationpractice.com/index.php?id_category=8&controller=category#/"
+1503570794393	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://automationpractice.com/index.php"
+1503570794911	Marionette	DEBUG	Received DOM event "pageshow" for "http://automationpractice.com/index.php"
+1503570797032	Marionette	DEBUG	Received DOM event "beforeunload" for "http://automationpractice.com/index.php"
+1503570797904	Marionette	DEBUG	Received DOM event "pagehide" for "http://automationpractice.com/index.php"
+1503570797904	Marionette	DEBUG	Received DOM event "unload" for "http://automationpractice.com/index.php"
+1503570798338	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967642"
+1503570798339	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967644"
+1503570798339	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967648"
+1503570798340	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967650"
+1503570799072	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://automationpractice.com/index.php?id_category=3&controller=category"
+1503570799287	Marionette	DEBUG	Received DOM event "pageshow" for "http://automationpractice.com/index.php?id_category=3&controller=category"
+1503570800375	Marionette	DEBUG	Received DOM event "beforeunload" for "http://automationpractice.com/index.php?id_category=3&controller=category"
+1503570801601	Marionette	DEBUG	Received DOM event "pagehide" for "http://automationpractice.com/index.php?id_category=3&controller=category"
+1503570801602	Marionette	DEBUG	Received DOM event "unload" for "http://automationpractice.com/index.php?id_category=3&controller=category"
+1503570802416	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://automationpractice.com/index.php?id_category=8&controller=category"
+1503570802567	Marionette	DEBUG	Received DOM event "pageshow" for "http://automationpractice.com/index.php?id_category=8&controller=category"
+1503570805910	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1503570811027	Marionette	DEBUG	Received DOM event "beforeunload" for "http://automationpractice.com/index.php?id_category=8&controller=category#/"
+1503570812105	Marionette	DEBUG	Received DOM event "pagehide" for "http://automationpractice.com/index.php?id_category=8&controller=category#/"
+1503570812105	Marionette	DEBUG	Received DOM event "unload" for "http://automationpractice.com/index.php?id_category=8&controller=category#/"
+1503570812811	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://automationpractice.com/index.php"
+1503570813113	Marionette	DEBUG	Received DOM event "pageshow" for "http://automationpractice.com/index.php"
+1503570815244	Marionette	DEBUG	Received DOM event "beforeunload" for "http://automationpractice.com/index.php"
+1503570815740	Marionette	DEBUG	Received DOM event "pagehide" for "http://automationpractice.com/index.php"
+1503570815740	Marionette	DEBUG	Received DOM event "unload" for "http://automationpractice.com/index.php"
+1503570816259	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://automationpractice.com/index.php?id_cms=3&controller=cms"
+1503570816294	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967657"
+1503570816294	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967659"
+1503570816295	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967663"
+1503570816296	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967665"
+1503570816318	Marionette	DEBUG	Received DOM event "pageshow" for "http://automationpractice.com/index.php?id_cms=3&controller=cms"
+1503570816416	Marionette	DEBUG	Received DOM event "beforeunload" for "http://automationpractice.com/index.php?id_cms=3&controller=cms"
+1503570817476	Marionette	DEBUG	Received DOM event "pagehide" for "http://automationpractice.com/index.php?id_cms=3&controller=cms"
+1503570817476	Marionette	DEBUG	Received DOM event "unload" for "http://automationpractice.com/index.php?id_cms=3&controller=cms"
+1503570818091	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://automationpractice.com/index.php"
+1503570818430	Marionette	DEBUG	Received DOM event "pageshow" for "http://automationpractice.com/index.php"
+1503570823590	Marionette	DEBUG	Received DOM event "beforeunload" for "http://automationpractice.com/index.php"
+1503570824424	Marionette	DEBUG	Received DOM event "pagehide" for "http://automationpractice.com/index.php"
+1503570824424	Marionette	DEBUG	Received DOM event "unload" for "http://automationpractice.com/index.php"
+1503570824832	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967671"
+1503570824832	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967673"
+1503570824833	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967677"
+1503570824833	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967679"
+1503570825536	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://automationpractice.com/index.php?id_category=3&controller=category"
+1503570825658	Marionette	DEBUG	Received DOM event "pageshow" for "http://automationpractice.com/index.php?id_category=3&controller=category"
+1503570826007	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1503570826041	Marionette	DEBUG	Received DOM event "beforeunload" for "http://automationpractice.com/index.php?id_category=3&controller=category"
+1503570827037	Marionette	DEBUG	Received DOM event "pagehide" for "http://automationpractice.com/index.php?id_category=3&controller=category"
+1503570827037	Marionette	DEBUG	Received DOM event "unload" for "http://automationpractice.com/index.php?id_category=3&controller=category"
+1503570827675	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://automationpractice.com/index.php"
+1503570828160	Marionette	DEBUG	Received DOM event "pageshow" for "http://automationpractice.com/index.php"
+1503570833266	Marionette	DEBUG	Received DOM event "beforeunload" for "http://automationpractice.com/index.php"
+1503570834123	Marionette	DEBUG	Received DOM event "pagehide" for "http://automationpractice.com/index.php"
+1503570834123	Marionette	DEBUG	Received DOM event "unload" for "http://automationpractice.com/index.php"
+1503570834582	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967685"
+1503570834582	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967687"
+1503570834582	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967691"
+1503570834583	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967693"
+1503570835143	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://automationpractice.com/index.php?id_category=3&controller=category"
+1503570835281	Marionette	DEBUG	Received DOM event "pageshow" for "http://automationpractice.com/index.php?id_category=3&controller=category"
+1503570835423	Marionette	DEBUG	Received DOM event "beforeunload" for "http://automationpractice.com/index.php?id_category=3&controller=category"
+1503570835955	Marionette	DEBUG	Received DOM event "pagehide" for "http://automationpractice.com/index.php?id_category=3&controller=category"
+1503570835956	Marionette	DEBUG	Received DOM event "unload" for "http://automationpractice.com/index.php?id_category=3&controller=category"
+1503570836673	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://automationpractice.com/index.php?id_product=6&controller=product"
+1503570836811	Marionette	DEBUG	Received DOM event "pageshow" for "http://automationpractice.com/index.php?id_product=6&controller=product"
+1503570837149	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1503570838184	Marionette	DEBUG	Received DOM event "beforeunload" for "http://automationpractice.com/index.php?id_product=6&controller=product"
+1503570839106	Marionette	DEBUG	Received DOM event "pagehide" for "http://automationpractice.com/index.php?id_product=6&controller=product"
+1503570839106	Marionette	DEBUG	Received DOM event "unload" for "http://automationpractice.com/index.php?id_product=6&controller=product"
+1503570840085	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://automationpractice.com/index.php"
+1503570840453	Marionette	DEBUG	Received DOM event "pageshow" for "http://automationpractice.com/index.php"
+1503570845582	Marionette	DEBUG	Received DOM event "beforeunload" for "http://automationpractice.com/index.php"
+1503570846692	Marionette	DEBUG	Received DOM event "pagehide" for "http://automationpractice.com/index.php"
+1503570846692	Marionette	DEBUG	Received DOM event "unload" for "http://automationpractice.com/index.php"
+1503570847171	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967700"
+1503570847172	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967702"
+1503570847172	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967706"
+1503570847173	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967708"
+1503570848250	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://automationpractice.com/index.php"
+1503570848529	Marionette	DEBUG	Received DOM event "pageshow" for "http://automationpractice.com/index.php"
+1503570848551	Marionette	DEBUG	Received DOM event "beforeunload" for "http://automationpractice.com/index.php"
+1503570849443	Marionette	DEBUG	Received DOM event "pagehide" for "http://automationpractice.com/index.php"
+1503570849443	Marionette	DEBUG	Received DOM event "unload" for "http://automationpractice.com/index.php"
+1503570849968	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967713"
+1503570849968	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967715"
+1503570849969	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967719"
+1503570849969	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967721"
+1503570850516	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://automationpractice.com/index.php"
+1503570850991	Marionette	DEBUG	Received DOM event "pageshow" for "http://automationpractice.com/index.php"
+1503570853108	Marionette	DEBUG	Received DOM event "beforeunload" for "http://automationpractice.com/index.php"
+ntroller=password"
+1503570582546	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://automationpractice.com/index.php"
+1503570582950	Marionette	DEBUG	Received DOM event "pageshow" for "http://automationpractice.com/index.php"
+1503570585161	Marionette	DEBUG	Received DOM event "beforeunload" for "http://automationpractice.com/index.php"
+1503570586156	Marionette	DEBUG	Received DOM event "pagehide" for "http://automationpractice.com/index.php"
+1503570586157	Marionette	DEBUG	Received DOM event "unload" for "http://automationpractice.com/index.php"
+1503570586680	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://automationpractice.com/index.php?controller=authentication&back=my-account"
+1503570586726	Marionette	DEBUG	Received DOM event "pageshow" for "http://automationpractice.com/index.php?controller=authentication&back=my-account"
+1503570587116	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+Unable to read VR Path Registry from C:\Users\burkoszy\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 6012] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\burkoszy\AppData\Local\openvr\openvrpaths.vrpath
+[Child 8320] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8320] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\burkoszy\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 9092] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+ord"
+1503562233702	Marionette	DEBUG	Received DOM event "pagehide" for "http://automationpractice.com/index.php?controller=password"
+1503562233702	Marionette	DEBUG	Received DOM event "unload" for "http://automationpractice.com/index.php?controller=password"
+1503562234333	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://automationpractice.com/index.php"
+1503562234682	Marionette	DEBUG	Received DOM event "pageshow" for "http://automationpractice.com/index.php"
+1503562236784	Marionette	DEBUG	Received DOM event "beforeunload" for "http://automationpractice.com/index.php"
+1503562237659	Marionette	DEBUG	Received DOM event "pagehide" for "http://automationpractice.com/index.php"
+1503562237660	Marionette	DEBUG	Received DOM event "unload" for "http://automationpractice.com/index.php"
+1503562238201	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://automationpractice.com/index.php?controller=authentication&back=my-account"
+1503562238218	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967741"
+1503562238218	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967743"
+1503562238218	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967747"
+1503562238219	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967749"
+1503562238238	Marionette	DEBUG	Received DOM event "pageshow" for "http://automationpractice.com/index.php?controller=authentication&back=my-account"
+1503562238662	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+Unable to read VR Path Registry from C:\Users\burkoszy\AppData\Local\openvr\openvrpaths.vrpath
+[Child 8284] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8284] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+esource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:570:13
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 1773, column: 11
+JavaScript error: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 410: TypeError: quads is undefined
+JavaScript error: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 410: TypeError: quads is undefined
+Handler function LocalDebuggerTransport instance's this.other.hooks.onPacket threw an exception: TypeError: to is null
+Stack: onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1773:11
+send/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:570:13
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 1773, column: 11
+console.error: 
+  Handler function LocalDebuggerTransport instance's this.other.hooks.onPacket threw an exception: TypeError: to is null
+Stack: onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1773:11
+send/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:570:13
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 1773, column: 11
+Handler function LocalDebuggerTransport instance's this.other.hooks.onPacket threw an exception: TypeError: to is null
+Stack: onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1773:11
+send/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:570:13
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 1773, column: 11
+console.error: 
+  Handler function LocalDebuggerTransport instance's this.other.hooks.onPacket threw an exception: TypeError: to is null
+Stack: onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1773:11
+send/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:570:13
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 1773, column: 11
+JavaScript error: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 410: TypeError: quads is undefined
+Handler function LocalDebuggerTransport instance's this.other.hooks.onPacket threw an exception: TypeError: to is null
+Stack: onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1773:11
+send/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:570:13
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 1773, column: 11
+console.error: 
+  Handler function LocalDebuggerTransport instance's this.other.hooks.onPacket threw an exception: TypeError: to is null
+Stack: onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1773:11
+send/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:570:13
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 1773, column: 11
+Handler function LocalDebuggerTransport instance's this.other.hooks.onPacket threw an exception: TypeError: to is null
+Stack: onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1773:11
+send/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:570:13
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 1773, column: 11
+console.error: 
+  Handler function LocalDebuggerTransport instance's this.other.hooks.onPacket threw an exception: TypeError: to is null
+Stack: onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1773:11
+send/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:570:13
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 1773, column: 11
+Handler function LocalDebuggerTransport instance's this.other.hooks.onPacket threw an exception: TypeError: to is null
+Stack: onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1773:11
+send/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:570:13
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 1773, column: 11
+console.error: 
+  Handler function LocalDebuggerTransport instance's this.other.hooks.onPacket threw an exception: TypeError: to is null
+Stack: onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1773:11
+send/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:570:13
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 1773, column: 11
+Handler function LocalDebuggerTransport instance's this.other.hooks.onPacket threw an exception: TypeError: to is null
+Stack: onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1773:11
+send/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:570:13
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 1773, column: 11
+console.error: 
+  Handler function LocalDebuggerTransport instance's this.other.hooks.onPacket threw an exception: TypeError: to is null
+Stack: onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1773:11
+send/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:570:13
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 1773, column: 11
+Handler function LocalDebuggerTransport instance's this.other.hooks.onPacket threw an exception: TypeError: to is null
+Stack: onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1773:11
+send/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:570:13
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 1773, column: 11
+console.error: 
+  Handler function LocalDebuggerTransport instance's this.other.hooks.onPacket threw an exception: TypeError: to is null
+Stack: onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1773:11
+send/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:570:13
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 1773, column: 11
+Handler function LocalDebuggerTransport instance's this.other.hooks.onPacket threw an exception: TypeError: to is null
+Stack: onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1773:11
+send/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:570:13
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 1773, column: 11
+console.error: 
+  Handler function LocalDebuggerTransport instance's this.other.hooks.onPacket threw an exception: TypeError: to is null
+Stack: onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1773:11
+send/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:570:13
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 1773, column: 11
+Unable to read VR Path Registry from C:\Users\burkoszy\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 11652] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+Unable to read VR Path Registry from C:\Users\burkoszy\AppData\Local\openvr\openvrpaths.vrpath
+[Child 9256] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9256] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\burkoszy\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 8888] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+g failure)
+
+JavaScript error: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/utils/markup.js, line 247: TypeError: this.highlighterEnv is null
+JavaScript error: http://automationpractice.com/js/jquery/jquery-1.11.0.min.js, line 3: TypeError: a.ownerDocument.defaultView is null
+Handler function NetworkEventActorProxy.addResponseContent threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1689"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1689:5
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+_onComplete@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:620:5
+onStreamClose@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:569:7
+onInputStreamReady@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:668:7
+Line: 1689, column: 0
+console.error: 
+  Handler function NetworkEventActorProxy.addResponseContent threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1689"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1689:5
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+_onComplete@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:620:5
+onStreamClose@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:569:7
+onInputStreamReady@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:668:7
+Line: 1689, column: 0
+Handler function NetworkEventActorProxy.addResponseContent threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1689"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1689:5
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+_onComplete@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:620:5
+onStreamClose@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:569:7
+onInputStreamReady@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:668:7
+Line: 1689, column: 0
+console.error: 
+  Handler function NetworkEventActorProxy.addResponseContent threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1689"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1689:5
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+_onComplete@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:620:5
+onStreamClose@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:569:7
+onInputStreamReady@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:668:7
+Line: 1689, column: 0
+Unable to read VR Path Registry from C:\Users\burkoszy\AppData\Local\openvr\openvrpaths.vrpath
+[Child 10512] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10512] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\burkoszy\AppData\Local\openvr\openvrpaths.vrpath
